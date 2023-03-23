@@ -2,3 +2,21 @@
     ViewData["Title"] = "Contact";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+<!-- Backdoor -->
+<section class="backdoor-section">
+    <div class="backdoor-container">
+        <h2>Contact Us</h2>
+        <div class="backdoor-columns">
+            <div class="backdoor-column">
+                <a asp-controller="Home" asp-action="Index">Home</a>
+            </div>
+            <div class="backdoor-column">
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+            <div class="backdoor-column">
+                <span>@ViewBag.Title</span>
+            </div>
+        </div>
+    </div>
+</section>
