@@ -1,1 +1,71 @@
 ﻿
+/* Header */
+
+header {
+    width: 100%;
+    padding: 40px 0 40px 0;
+    background: #FFFFFF;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.header-logo {
+    margin-left: 135px;
+}
+
+.header-navigation {
+}
+
+.header-navlist {
+    display: flex;
+}
+
+.header-navlist-item {
+    margin-top: 10px;
+}
+
+.header-navlist-item + .header-navlist-item {
+    padding-left: 50px;
+}
+
+.header-navlist-link {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #292929;
+    transition: .3s all;
+    border-bottom: 1px solid transparent;
+}
+
+.header-navlist-link:hover {
+    transition: .3s all;
+    color: #555555;
+    border-bottom: 1px solid #555555;
+}
+
+.header-contact {
+    margin-right: 135px;
+}
+
+.header-contact a {
+    background-color: #1195FF;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    padding: 15px 35px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: .3s all;
+}
+
+.header-contact a:hover {
+    background-color: #FFFFFF;
+    color: #1195FF;
+    border: 1px solid #1195FF;
+    transition: .3s all;
+}
