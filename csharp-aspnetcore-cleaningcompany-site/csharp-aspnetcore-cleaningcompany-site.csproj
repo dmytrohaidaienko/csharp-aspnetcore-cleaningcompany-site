@@ -10,7 +10,7 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="wwwroot\img\enterprise\" />
-    <Folder Include="wwwroot\img\main\" />
+    <Folder Include="wwwroot\img\main\brands\" />
     <Folder Include="wwwroot\img\services\" />
     <Folder Include="wwwroot\img\about\" />
     <Folder Include="wwwroot\img\contact\" />

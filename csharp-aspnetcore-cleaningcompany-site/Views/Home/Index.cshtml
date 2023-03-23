@@ -2,3 +2,76 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+<section class="greeting-section">
+    <div class="container greeting-container">
+        <div class="greeting-section-column">
+            <h3>HIGHLY PROFESSIONAL CLEANING</h3>
+            <h1><span>EASY TO CLEAN</span> HOUSE AND OFFICE</h1>
+            <p>
+                Amet minim mollit non deserunt ullamco sit aliqua dolor do amet sint. Velit officia enim velit
+                mollit. Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <a asp-controller="Home" asp-action="Contact">Contact us</a>
+            <h4>TRUSTED PARTNERS</h4>
+            <h2>BRANDS WHO TRUST US</h2>
+        </div>
+        <div class="greeting-section-column">
+            <img src="~/img/main/greeting.png" alt="Greeting-Image" />
+
+        </div>
+    </div>
+</section>
+
+<section class="brands-section">
+    <div class="container brands-container">
+        <img src="~/img/main/brands/brand.png" alt="Brand" />
+        <img src="~/img/main/brands/brand.png" alt="Brand" />
+        <img src="~/img/main/brands/brand.png" alt="Brand" />
+        <img src="~/img/main/brands/brand.png" alt="Brand" />
+        <img src="~/img/main/brands/brand.png" alt="Brand" />
+    </div>
+</section>
+<section class="main-section">
+    <div class="container main-container">
+        <div class="main-columns">
+            <div class="main-column">
+                <h3>Our company</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.
+                </p>
+                <a asp-controller="Home" asp-action="About">View more about<i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="main-column">
+                <img src="~/img/main/side/main1.png" alt="Main-1" />
+            </div>
+        </div>
+        <div class="main-columns">
+            <div class="main-column">
+                <img src="~/img/main/side/main2.png" alt="Main-2" />
+            </div>
+            <div class="main-column">
+                <h3>Our services</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.
+                </p>
+                <a asp-controller="Home" asp-action="Services"><i class="fa-sharp fa-solid fa-arrow-left"></i>Check our services</a>
+            </div>
+        </div>
+        <div class="main-columns">
+            <div class="main-column">
+                <h3>Contact us</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna.
+                </p>
+                <a asp-controller="Home" asp-action="Contact">Write to us<i class="fa-sharp fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="main-column">
+                <img src="~/img/main/side/main3.png" alt="Main-3" />
+            </div>
+        </div>
+    </div>
+</section>

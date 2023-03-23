@@ -26,3 +26,15 @@
     color: #BCBCBC;
     background-color: transparent;
 }
+
+/* Index.cshtml */
+
+.fa-arrow-right {
+    background-color: transparent;
+    margin-left: 5px;
+}
+
+.fa-arrow-left {
+    background-color: transparent;
+    margin-right: 5px;
+}
