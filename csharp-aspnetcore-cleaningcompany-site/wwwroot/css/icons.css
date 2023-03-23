@@ -1,1 +1,28 @@
-﻿
+﻿/* _Layout.cshtml */
+
+.fa-calendar-days {
+    background-color: transparent;
+    margin-right: 5px;
+}
+
+.footer-socials-icons {
+    color: #FFFFFF;
+    background-color: #1195FF;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .3s all;
+}
+
+.footer-socials-icons:hover {
+    color: #1195FF;
+    background-color: #FFFFFF;
+    transition: .3s all;
+}
+
+.fa-phone,
+.fa-envelope,
+.fa-location-dot {
+    color: #BCBCBC;
+    background-color: transparent;
+}
