@@ -39,6 +39,21 @@
     margin-right: 5px;
 }
 
+/* About.cshtml */
+
+.team-social {
+    color: #333333;
+    background-color: transparent;
+    transition: .3s all;
+    margin-top: 20px;
+    padding: 8px;
+}
+
+.team-social:hover {
+    color: #1195FF;
+    transition: .3s all;
+}
+
 /* Backdoor section */
 
 .fa-arrow-right-long {
