@@ -15,8 +15,9 @@
     <Folder Include="wwwroot\img\about\carousel\" />
     <Folder Include="wwwroot\img\enterprise\" />
     <Folder Include="wwwroot\img\main\brands\" />
-    <Folder Include="wwwroot\img\services\" />
     <Folder Include="wwwroot\img\contact\" />
+    <Folder Include="wwwroot\img\services\icons\" />
+    <Folder Include="wwwroot\img\services\carousel\" />
   </ItemGroup>
 
 </Project>
