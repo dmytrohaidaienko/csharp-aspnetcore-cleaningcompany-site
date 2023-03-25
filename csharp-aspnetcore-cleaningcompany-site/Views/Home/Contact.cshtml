@@ -1,4 +1,6 @@
-﻿@{
+﻿@model csharp_aspnetcore_cleaningcompany_site.Models.CustomerRequest
+
+@{
     ViewData["Title"] = "Contact";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -37,39 +39,39 @@
                 </p>
             </div>
             <div class="contactform-column">
-                <form class="contactform" action="">
-                    <label for="">Name*</label>
-                    <input type="text" name="customersName" id="customersName" placeholder="Name and Surname"
+                <form class="contactform" asp-controller="Home" asp-action="Create">
+                    <label asp-for="CustomersName">Name*</label>
+                    <input asp-for="CustomersName" type="text" name="customersName" id="customersName" placeholder="Name and Surname"
                            required>
-                    <label for="">Phone*</label>
-                    <input type="tel" name="customersPhone" id="customersPhone" placeholder="Phone" required>
-                    <label for="">City*</label>
-                    <select name="customersCity" id="customersCity" required>
-                        <option value="1" selected></option>
-                        <option value="2">Kyiv</option>
-                        <option value="3">Kharkov</option>
-                        <option value="4">Odesa</option>
-                        <option value="5">Dnipro</option>
-                        <option value="6">Zaporozhye</option>
-                        <option value="7">Lviv</option>
-                        <option value="8">kryvyi Pih</option>
-                        <option value="9">Mykolaiv</option>
-                        <option value="10">Vinnitsa</option>
-                        <option value="11">Sumy</option>
-                        <option value="11">etc.</option>
+                    <label asp-for="CustomersPhone">Phone*</label>
+                    <input asp-for="CustomersPhone" type="tel" name="customersPhone" id="customersPhone" placeholder="Phone" required>
+                    <label asp-for="CustomersCity">City*</label>
+                    <select asp-for="CustomersCity" name="customersCity" id="customersCity" required>
+                        <option value="" selected></option>
+                        <option value="Kyiv">Kyiv</option>
+                        <option value="Kharkov">Kharkov</option>
+                        <option value="Odesa">Odesa</option>
+                        <option value="Dnipro">Dnipro</option>
+                        <option value="Zaporozhye">Zaporozhye</option>
+                        <option value="Lviv">Lviv</option>
+                        <option value="Kryvyi Pih">Kryvyi Pih</option>
+                        <option value="Mykolaiv">Mykolaiv</option>
+                        <option value="Vinnitsa">Vinnitsa</option>
+                        <option value="Sumy">Sumy</option>
+                        <option value="etc.">etc.</option>
                     </select>
-                    <label for="">Adress*</label>
-                    <input type="text" name="customersAddress" id="customersAddress" placeholder="Address of cleaning place"
+                    <label asp-for="CustomersAddress">Adress*</label>
+                    <input asp-for="CustomersAddress" type="text" name="customersAddress" id="customersAddress" placeholder="Address of cleaning place"
                            required>
-                    <label for="">Cleaning place*</label>
-                    <select name="customersPlace" id="customersPlace" required>
-                        <option value="1" selected></option>
-                        <option value="2">Flat</option>
-                        <option value="3">House</option>
-                        <option value="4">Office</option>
-                        <option value="4">Studio</option>
-                        <option value="4">Store</option>
-                        <option value="4">etc.</option>
+                    <label for="CustomersPlace">Cleaning place*</label>
+                    <select asp-for="CustomersPlace" name="customersPlace" id="customersPlace" required>
+                        <option value="" selected></option>
+                        <option value="Flat">Flat</option>
+                        <option value="House">House</option>
+                        <option value="Office">Office</option>
+                        <option value="Studio">Studio</option>
+                        <option value="Store">Store</option>
+                        <option value="etc.">etc.</option>
                     </select>
                     <button id="contactButton">Submit</button>
                 </form>
